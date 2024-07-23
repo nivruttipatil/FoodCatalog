@@ -1,0 +1,249 @@
+{
+    "categories": [
+        {
+            "category_name": "Desserts",
+            "category_imageUrl": "Desserts",
+            "category_id": 101,
+            "category_items": [
+                {
+                    "food_id": 1001,
+                    "food_name": "Mango ice cream",
+                    "food_imageUrl": "mangoIceCream",
+                },
+                {
+                    "food_id": 1002,
+                    "food_name": "Raspberry pie",
+                    "food_imageUrl": "Raspberry",
+                },
+                {
+                    "food_id": 1003,
+                    "food_name": "Strawberry ice cream",
+                    "food_imageUrl": "mangoIceCreamVanila",
+                },
+                {
+                    "food_id": 1004,
+                    "food_name": "Vanilla ice cream",
+                    "food_imageUrl": "vanille",
+                },
+                {
+                    "food_id": 1005,
+                    "food_name": "Mango vanilla ice cream",
+                    "food_imageUrl": "mangoIceCreamVanila",
+                },
+                {
+                    "food_id": 1006,
+                    "food_name": "Casatta ice cream",
+                    "food_imageUrl": "casattaicecream",
+                },
+                {
+                    "food_id": 1007,
+                    "food_name": "Brownie ice cream",
+                    "food_imageUrl": "Brownieicecream",
+                }
+                
+                
+                
+            ]
+        },
+        {
+            "categoryName": "Sandwich",
+            "category_imageUrl": "Sandwich",
+            "category_id": 102,
+            "category_items": [
+                {
+                    "food_id": 2000,
+                    "food_name": "Cheese Sandwich",
+                    "food_imageUrl": "mangoIceCreamVanila",
+                },
+                {
+                    "food_id": 2001,
+                    "food_name": "Grilled Cheese Sandwich",
+                    "food_imageUrl": "Grilled Cheese sanwich",
+                },
+                {
+                    "food_id": 2002,
+                    "food_name": "Vegan Saandwich",
+                    "food_imageUrl": "Vegan sandwich",
+                },
+                {
+                    "food_id": 2003,
+                    "food_name": "Masala Grilled sandwich",
+                    "food_imageUrl": "Masalagrilledsandwich",
+                },
+                {
+                    "food_id": 2004,
+                    "food_name": "Masala Cheese Grilled Saandwich",
+                    "food_imageUrl": "MasalaCheeseGrilledSaandwich",
+                },
+                {
+                    "food_id": 2005,
+                    "food_name": "Veg Grilled Sandwich",
+                    "food_imageUrl": "PizzaSandwich",
+                },
+                {
+                    "food_id": 2006,
+                    "food_name": "Veg Paneer Grilled Sandwich",
+                    "food_imageUrl": "VegPaneerGrilledSandwich",
+                }
+            ]
+        },
+        {
+            "categoryName": "Pizzas",
+            "category_imageUrl": "Pizzas",
+            "category_id": 103,
+            "category_items": [
+                {
+                    "food_id": 3000,
+                    "food_name": "Cheesy Pizza",
+                    "food_imageUrl": "Cheesy Pizza Slice Stickers for Sale",
+                },
+                {
+                    "food_id": 3001,
+                    "food_name": "Capsicum Pizza",
+                    "food_imageUrl": "Pizzas",
+                },
+                {
+                    "food_id": 3002,
+                    "food_name": "Margherita Pizza",
+                    "food_imageUrl": "MargheritaPizza",
+                },
+                {
+                    "food_id": 3003,
+                    "food_name": "Onion Pizza",
+                    "food_imageUrl": "OnionPizza",
+                },
+                {
+                    "food_id": 3004,
+                    "food_name": "Corn Cheese Pizza",
+                    "food_imageUrl": "CornCheesePizza",
+                },
+                {
+                    "food_id": 3005,
+                    "food_name": "Farmhouse Pizza",
+                    "food_imageUrl": "FarmhousePizza",
+                },
+                {
+                    "food_id": 3006,
+                    "food_name": "Paneer Pizza",
+                    "food_imageUrl": "Paneer Pizza",
+                }
+            ]
+        },
+        {
+            "categoryName": "Snacks",
+            "category_imageUrl": "Vadapav",
+            "category_id": 104,
+            "category_items": [
+                {
+                    "food_id": 4000,
+                    "food_name": "Vadapav",
+                    "food_imageUrl": "Vadapav",
+                },
+                {
+                    "food_id": 4001,
+                    "food_name": "Samosa",
+                    "food_imageUrl": "Samosa",
+                },
+                {
+                    "food_id": 4002,
+                    "food_name": "Poha",
+                    "food_imageUrl": "Poha",
+                },
+                {
+                    "food_id": 4003,
+                    "food_name": "Veg Maggie",
+                    "food_imageUrl": "VegMaggie",
+                },
+                {
+                    "food_id": 4004,
+                    "food_name": "Dhokla",
+                    "food_imageUrl": "Dhokla",
+                },
+                {
+                    "food_id": 4005,
+                    "food_name": "Idli sambhar",
+                    "food_imageUrl": "idliSambhar",
+                },
+                {
+                    "food_id": 4006,
+                    "food_name": "Vada sambhar",
+                    "food_imageUrl": "VadaSambhar",
+                },
+                {
+                    "food_id": 4007,
+                    "food_name": "Chole Bhature",
+                    "food_imageUrl": "CholeBhature",
+                }
+            ]
+        },
+        {
+            "categoryName": "Burgers",
+            "category_imageUrl": "Burgers",
+            "category_id": 105,
+            "category_items": [
+                {
+                    "food_id": 5000,
+                    "food_name": "Aloo Tikki Burger",
+                    "food_imageUrl": "AlooTikkiBurger",
+                },
+                {
+                    "food_id": 5001,
+                    "food_name": "Veggie Burger",
+                    "food_imageUrl": "VeggieBurger",
+                },
+                {
+                    "food_id": 5002,
+                    "food_name": "Paneer Burger",
+                    "food_imageUrl": "PaneerBurger",
+                },
+                {
+                    "food_id": 5003,
+                    "food_name": "Corn and Cheese Burger",
+                    "food_imageUrl": "CornBurger",
+                },
+                {
+                    "food_id": 5004,
+                    "food_name": "Cheese Burger",
+                    "food_imageUrl": "Burgers",
+                },
+            ]
+        },
+        {
+            "categoryName": "Parathas",
+            "category_imageUrl": "MixVegParathas",
+            "category_id": 106,
+            "category_items": [
+                {
+                    "food_id": 6000,
+                    "food_name": "Aloo Parathas",
+                    "food_imageUrl": "AlooParathas",
+                },
+                {
+                    "food_id": 6001,
+                    "food_name": "Mix Veg Parathas",
+                    "food_imageUrl": "MixVegParathas",
+                },
+                {
+                    "food_id": 6002,
+                    "food_name": "Gobhi Parathas",
+                    "food_imageUrl": "GobhiParathas",
+                },
+                {
+                    "food_id": 6003,
+                    "food_name": "Aloo Palak Parathas",
+                    "food_imageUrl": "AlooPalakParathas",
+                },
+                {
+                    "food_id": 6004,
+                    "food_name": "Onion Parathas",
+                    "food_imageUrl": "OnionParathas",
+                },
+                {
+                    "food_id": 6005,
+                    "food_name": "Muli Parathas",
+                    "food_imageUrl": "MuliParathas",
+                }
+            ]
+        }
+    ]
+}

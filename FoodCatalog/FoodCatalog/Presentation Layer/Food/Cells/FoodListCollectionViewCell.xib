@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FoodListCollectionViewCell" id="4Ya-WO-5eu" userLabel="FoodListCollectionViewCell" customClass="FoodListCollectionViewCell" customModule="FoodCatalog" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="156" height="135"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="156" height="135"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Burgers" translatesAutoresizingMaskIntoConstraints="NO" id="E1B-bF-nVv">
+                        <rect key="frame" x="5" y="5" width="146" height="125"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="JEn-EC-c5K"/>
+            <constraints>
+                <constraint firstItem="E1B-bF-nVv" firstAttribute="leading" secondItem="4Ya-WO-5eu" secondAttribute="leading" constant="5" id="6iv-9H-bLQ"/>
+                <constraint firstItem="E1B-bF-nVv" firstAttribute="top" secondItem="4Ya-WO-5eu" secondAttribute="top" constant="5" id="6vG-lb-orR"/>
+                <constraint firstAttribute="bottom" secondItem="E1B-bF-nVv" secondAttribute="bottom" constant="5" id="ENE-IL-72P"/>
+                <constraint firstAttribute="trailing" secondItem="E1B-bF-nVv" secondAttribute="trailing" constant="5" id="ar3-rI-3BV"/>
+            </constraints>
+            <size key="customSize" width="156" height="135"/>
+            <connections>
+                <outlet property="iconImgView" destination="E1B-bF-nVv" id="JjG-5Y-wit"/>
+            </connections>
+            <point key="canvasLocation" x="116.03053435114504" y="50.352112676056343"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Burgers" width="626" height="626"/>
+    </resources>
+</document>
